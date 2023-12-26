@@ -1,0 +1,18 @@
+.resume-header {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.resume-header a{
+    color: #263434;
+}
+

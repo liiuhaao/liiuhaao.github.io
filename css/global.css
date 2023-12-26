@@ -1,0 +1,101 @@
+body {
+    /* font-family: "Papyrus", fantasy;  */
+    /* font-family: "Lucida Handwriting", cursive; */
+    /* font-family: brush script mt; */
+
+    /* font-family: "Comic Sans MS", cursive, sans-serif; */
+
+    /* font-family: "Courier New", Courier, monospace; */
+    /* font-family: "Lucida Console", Monaco, monospace;  */
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;  */
+    /* font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin: 0;
+    background-color: #fcfbf2;
+    color: #263434;
+}
+
+.content{
+    padding: 20px 20%;
+}
+
+a {
+    color: #30655f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #30655f;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #30655f;
+}
+
+
+.main-nav {
+    font-weight: bolds;
+    font-size: x-large;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 60%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0 20%;
+    border-bottom: 1px solid #b2b4a4;
+    background-color: #fcfbf2;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.main-nav li a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.3s;
+}
+
+.main-nav li a:hover::after {
+    background-color: #30655f;
+}
+
+
+footer {
+    border-top: 1px solid #b2b4a4;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: #a0c69d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

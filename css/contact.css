@@ -1,0 +1,18 @@
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h1 {
+    margin-top: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
